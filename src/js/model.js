@@ -90,6 +90,10 @@ export const addBookmark = function (recipe) {
   storeBookMark();
 };
 
+
+ 
+ 
+ 
 export const deleteBookmark = function (id) {
   index = state.bookmark.indexOf(el => el.id === id);
   state.bookmark.splice(index, 1);
@@ -139,6 +143,10 @@ const init = function () {
 };
 
 init();
+
+
+
+
 
 
 
