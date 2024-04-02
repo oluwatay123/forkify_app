@@ -141,9 +141,4 @@ const init = function () {
 init();
 
 
-const newFeature  = function (){
-  console.log('new feature')
-}
 
-
-newFeature()
